@@ -1,0 +1,18 @@
+# Dependencies & build output
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Demo videos & local runtime logs (replaced by AI backend streams/videos)
+public/videos/*.mp4
+public/videos/*.avi
+public/backend_data.json
+
+# OS / Editor / Logs
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+.vscode/*
+!.vscode/extensions.json
